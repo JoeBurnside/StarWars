@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrapper {
+	width:80%;
+	height:auto;
+	margin:10% auto;
+	padding:0px;
+}
+body {
+	background-color:#306;
+	margin:0px;
+	padding:0px;
+}
+header {
+	display:block;
+	width:100%;
+	height:20%;
+	background-color:#000000;
+	border:1px solid #306;
+	float:left;
+}
+
+nav {
+	display:block;
+	width:30%;
+	background-image:url(images/stars.jpg);
+	background-repeat:repeat-xy;
+	float:left;
+	margin:0px;
+	padding:0px;
+	border-right:1px solid #306;
+	border-bottom:1px solid #306;
+	height:100%;
+	
+}
+footer {
+	display:block;
+	width:100%;
+	height:20%;
+	border:1px solid #306;
+	background-color:#000000;
+	float:left;
+	margin-bottom:5%;
+}
+section {
+	display:block;
+	width:100%;
+	height:60%;
+	background-image:url(images/stars.jpg);
+	background-repeat:repeat-xy;
+	float:left;
+	border:1px solid #306;
+}
+button {
+	display:block;
+	width:90%;
+	height:5%;
+	margin:2% auto;
+	padding:2%;
+	background-color:#000000;
+	border:1px solid #603;
+}
+h1 {
+	font-family:Comic Sans MS;
+	font-size:300%;
+	color:#F00;
+	text-align:center;
+	text-shadow:2px 2px #FFFFFF;
+}
+h2 {
+	font-family:Comic Sans MS;
+	text-decoration:underline;
+	font-size:100%;
+	color:#F00;
+	text-align:center;
+	text-shadow:0px 1px #FFFFFF;
+	font-weight:bold;
+}
+h3 {
+	font family:Comic Sans MS;
+	font-size:80%;
+	color:#F00;
+	text-align:center;
+	text-decoration:none;
+	margin:0px auto;
+}
+a {
+	text-decoration:none;
+	font family:verdana;
+	color:##FFA812;
+}
+a:link {
+	text-decoration:none;
+}
+a:visited {
+	text-decoration:none;
+	color:#FF0000;
+}
+a:hover {
+	text-decoration:underline;
+	color:#FF0000;
+}
+a:active {
+	text-decoration:underline;
+	color:#603;
+}
+p {
+	font-family:Comic Sans MS;
+	font-size:100%;
+	color:#FFA812;
+	padding:10px;
+}
+content {
+	display:block;
+	width:55%;
+	background-image:url(images/stars.jpg);
+	background-repeat:repeat-xy;
+	float:left;
+	margin:5%;
+	padding:0px;
+	height:100%;
+}
